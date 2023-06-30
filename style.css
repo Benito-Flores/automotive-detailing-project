@@ -168,6 +168,48 @@ p {
     margin-right: auto;
   }
 
+  /* -- gallery -- */
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    gap: .5em;
+  }
+
+  .gallery-img {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .gallery-background-img-1 {
+    background-image: url(./img/gallery-1.jpg);
+  }
+
+  .gallery-background-img-2 {
+    background-image: url(./img/gallery-2.jpg);
+  }
+
+  .gallery-background-img-3 {
+    background-image: url(./img/gallery-3.jpg);
+  }
+
+  .gallery-background-img-4 {
+    background-image: url(./img/gallery-4.jpg);
+  }
+
+  .gallery-background-img-5 {
+    background-image: url(./img/gallery-5.jpg);
+  }
+
+  .gallery-background-img-6 {
+    background-image: url(./img/gallery-6.jpg);
+  }
+
 /* 
 ============ media queries ============
 */
@@ -225,6 +267,10 @@ p {
   .service-card-img {
     margin-left: initial;
     margin-right: initial;
+  }
+
+  .grid {
+    max-width: 1200px;
   }
 
 }
