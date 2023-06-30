@@ -24,6 +24,14 @@ a {
   flex-direction: column;
 }
 
+.current {
+  border-bottom: 3px solid white;
+}
+
+.not-current {
+  opacity: .6;
+}
+
 /* 
 ============ typography ============
 */
@@ -124,7 +132,7 @@ p {
   text-align: center;
 }
 
-  /* -- services container -- */
+  /* -- services card -- */
 
   .services-container {
     width: 95%;
@@ -134,11 +142,17 @@ p {
 
   .service-title-text {
     margin-bottom: 2em;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .service-card-img {
     height: 30vh;
     border-radius: 2px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .service-card-info-title {
@@ -149,6 +163,9 @@ p {
     font-size: 1rem;
     margin-bottom: 2rem;
     font-weight: 300;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 /* 
@@ -191,6 +208,23 @@ p {
     margin-left: 3.7rem;
     max-width: 10em;
     padding: .75em 1.5em;
+  }
+
+}
+
+@media (min-width: 900px) {
+
+  .service-card {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 4em;
+  }
+
+  .service-card-img {
+    margin-left: initial;
+    margin-right: initial;
   }
 
 }
