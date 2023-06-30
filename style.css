@@ -91,7 +91,7 @@ p {
 
 .splash-info-container {
   padding-bottom: 3em;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .7) 20%, rgba(0, 0, 0, 0.05));
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .9) 20%, rgba(0, 0, 0, 0.05));
 }
 
 .splash-body-title {
