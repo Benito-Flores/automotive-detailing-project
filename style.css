@@ -1,0 +1,155 @@
+/* 
+============ global ============
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  /* border: 1px solid red; */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 
+============ typography ============
+*/
+
+body {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.letter-spacing {
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+/* 
+============ splash ============
+*/
+
+.splash {
+  background-image: url(./img/background-img-main.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  color: white;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.splash-header {
+  padding: .5em 2em;
+  background-image: linear-gradient(rgba(0, 0, 0, .7) 20%, rgba(0, 0, 0, 0.05));
+}
+
+.splash-header-title {
+  text-align: center;
+}
+
+.splash-link-container {
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+}
+
+.splash-info-container {
+  padding-bottom: 3em;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .7) 20%, rgba(0, 0, 0, 0.05));
+}
+
+.splash-body-title {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button {
+  display: block;
+  text-align: center;;
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid white;
+  border-radius: 3px;
+  padding-top: .75em;
+  padding-bottom: .75em;
+}
+
+/* 
+============ media queries ============
+*/
+
+@media (min-width: 650px) {
+
+  h1 {
+    font-weight: 400;
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2.25rem;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .splash-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 4em;
+  }
+
+  .splash-body-title {
+    margin: initial;
+    margin-right: auto;
+    margin-left: 3.7rem;
+    width: initial;
+  }
+
+  .button {
+    margin: initial;
+    margin-right: auto;
+    margin-left: 3.7rem;
+    max-width: 10em;
+    padding: .75em 1.5em;
+  }
+
+}
