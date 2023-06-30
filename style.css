@@ -70,13 +70,13 @@ p {
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   color: white;
-  height: 100vh;
+  height: 90vh;
   justify-content: space-between;
 }
 
 .splash-header {
   padding: .5em 2em;
-  background-image: linear-gradient(rgba(0, 0, 0, .7) 20%, rgba(0, 0, 0, 0.05));
+  background-image: linear-gradient(rgba(0, 0, 0, .7) 20%, rgba(0, 0, 0, 0));
 }
 
 .splash-header-title {
@@ -91,7 +91,7 @@ p {
 
 .splash-info-container {
   padding-bottom: 3em;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .9) 20%, rgba(0, 0, 0, 0.05));
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .9) 20%, rgba(0, 0, 0, 0));
 }
 
 .splash-body-title {
